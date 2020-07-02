@@ -33,7 +33,7 @@ fn fibonacci(number: u32) {
 	let mut x = (1, 1);
 
 	for i in 0..number {
-		println!("{}: {}", i, x.0);
+		println!("{}: {}", i + 1, x.0);
 		x = (x.1, x.0 + x.1)
 	}
 }
